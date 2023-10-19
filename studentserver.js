@@ -393,12 +393,13 @@ function checkStudentExists(files, obj, fname, lname, res) {
   return false;
 
 }
-
-/*app.listen(5678); //start the server
+/*
+app.listen(5678); //start the server
 console.log('Server is running...');
 console.log('Webapp:   http://localhost:5678/')
 console.log('API Docs: http://localhost:5678/api-docs')
 */
+
 const port = process.env.PORT; // Use the Heroku-provided port, or 3000 if running locally
-app.listen(https://john-sinfuego-homework6-2a44706c3a85.herokuapp.com/, () => {
-  console.log('Server is running on port $'{https://john-sinfuego-homework6-2a44706c3a85.herokuapp.com/});
+app.listen(port, () => { console.log('Server is running on port ${port}');
+})
