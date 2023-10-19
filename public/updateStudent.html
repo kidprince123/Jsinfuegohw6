@@ -128,7 +128,7 @@
             };
 
             $.ajax({
-                url: "http://localhost:5678/students/" + record_id,
+                url: "/students/" + record_id,
                 type: "put",
                 data: JSON.stringify(data),
                 contentType: "application/json",

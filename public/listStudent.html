@@ -105,7 +105,7 @@
     <script>
         function listStudents() {
             $.ajax({
-                url: "http://localhost:5678/students",
+                url: "/students",
                 type: "get",
                 success: function(response) {
                     // Assuming the response is an array of student objects, you can loop through them

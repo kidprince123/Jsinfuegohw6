@@ -132,7 +132,7 @@
         var lastName = $("#searchInput").val();
 
         $.ajax({
-            url: "http://localhost:5678/students/search/" + lastName,
+            url: "/students/search/" + lastName,
             type: "get",
             success: function(response) {
                 if (response.students.length > 0) {
