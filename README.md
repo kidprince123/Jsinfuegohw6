@@ -17,5 +17,7 @@ To develop/debug server:
 To view studentserver webpage:
 "http://localhost:5678/"
 
-To view studentserver api-docs:
-Go to the link "http://localhost:5678/api-docs/" on your browser.
+gif of video
+![](https://github.com/kidprince123/Jsinfuegohw6/blob/main/ezgif.com-video-to-gif.gif)
+
+
