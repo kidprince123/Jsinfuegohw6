@@ -15,7 +15,7 @@ To develop/debug server:
 >nodemon studentserver.js
 
 To view studentserver webpage:
-"http://localhost:5678/"
+"https://john-sinfuego-homework6-2a44706c3a85.herokuapp.com/index2.html/"
 
 gif of video
 ![](https://github.com/kidprince123/Jsinfuegohw6/blob/main/ezgif.com-video-to-gif.gif)
