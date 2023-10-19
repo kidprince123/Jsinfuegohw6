@@ -112,7 +112,7 @@
             var record_id = $("#record_id").val();
             
             $.ajax({
-                url: "/students" + record_id,
+                url: "/students/" + record_id,
                 type: "delete",
                 success: function(response) {
                     $("#mydiv").text("Student with ID " + record_id + " has been deleted.");
